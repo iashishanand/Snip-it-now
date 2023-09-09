@@ -13,7 +13,7 @@ const urlRoute = require('./routes/url');
 const userRoute = require('./routes/user');
 
 //Connecting to MongoDb
-connectToMongoDB('<Your mongoDb cluster URI>')
+connectToMongoDB('<Your MongoDB Cluster URI>')
     .then(() => {
         console.log('MongoDB Connected!');
     })

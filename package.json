@@ -1,13 +1,12 @@
 {
-  "name": "url-shortner",
+  "name": "snip-it-now",
   "version": "1.0.0",
-  "description": "URL Shortner is a web app which can help you to get rid of long URLs, shorten them and share them with your friends.",
+  "description": "Welcome to **SNIPITNOW**, your go-to solution for creating and managing short URLs effortlessly. With a sleek combination of Node.js, MongoDB, and several powerful npm libraries, SNIPITNOW empowers you to shrink those long, unwieldy URLs into bite-sized, shareable links. Not only does it make your links more manageable, but it also provides you with insightful analytics and robust authentication features.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Ashish Anand",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.6",
