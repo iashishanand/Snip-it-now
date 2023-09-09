@@ -22,8 +22,7 @@ async function handleUserLogin(req, res) {
     return res.redirect('/');
 }
 
-function handleUserLogout(req, res)
-{
+function handleUserLogout(req, res) {
     res.clearCookie('uid');
     return res.redirect('/');
 }

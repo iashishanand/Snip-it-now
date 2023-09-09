@@ -13,7 +13,7 @@ const urlRoute = require('./routes/url');
 const userRoute = require('./routes/user');
 
 //Connecting to MongoDb
-connectToMongoDB('<Your mongoDb cluster URI')
+connectToMongoDB('<Your mongoDb cluster URI>')
     .then(() => {
         console.log('MongoDB Connected!');
     })
@@ -24,7 +24,7 @@ app.set('views', path.join(__dirname + '/views'));
 
 //Express middleware
 app.use(express.json());
-app.use(express.urlencoded({extended: false}));
+app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 //Using the required routes
